@@ -1,7 +1,7 @@
 # Testprojectfromattacker Python API library
 
 <!-- prettier-ignore -->
-[![PyPI version](https://img.shields.io/pypi/v/testprojectfromattacker.svg?label=pypi%20(stable))](https://pypi.org/project/testprojectfromattacker/)
+[![PyPI version](https://img.shields.io/pypi/v/testprojectfromat.svg?label=pypi%20(stable))](https://pypi.org/project/testprojectfromat/)
 
 The Testprojectfromattacker Python library provides convenient access to the Testprojectfromattacker REST API from any Python 3.8+
 application. The library includes type definitions for all request params and response fields,
@@ -17,7 +17,7 @@ The full API of this library can be found in [api.md](api.md).
 
 ```sh
 # install from PyPI
-pip install testprojectfromattacker
+pip install testprojectfromat
 ```
 
 ## Usage
@@ -81,7 +81,7 @@ You can enable this by installing `aiohttp`:
 
 ```sh
 # install from PyPI
-pip install testprojectfromattacker[aiohttp]
+pip install testprojectfromat[aiohttp]
 ```
 
 Then you can enable it by instantiating the client with `http_client=DefaultAioHttpClient()`:
